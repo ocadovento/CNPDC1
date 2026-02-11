@@ -1,0 +1,115 @@
+╔════════════════════════════════════════════════════════════════════╗
+║        INFORMAÇÕES DO PROJETO CNPDC - SALVE ESTE ARQUIVO!         ║
+╚════════════════════════════════════════════════════════════════════╝
+
+📌 NOME DO PROJETO
+   Sistema CNPDC - Gestão de Delegação de Povos e Comunidades Tradicionais
+
+🔗 URL DO BOLT (COPIE E SALVE!)
+   → Abra este projeto no navegador e copie a URL completa
+   → Deve ser algo como: https://bolt.new/~/[ID-DO-PROJETO]
+   → SALVE ESTA URL NOS FAVORITOS!
+
+🗂️ ESTRUTURA DO PROJETO
+   - React + TypeScript + Vite
+   - Tailwind CSS
+   - Supabase (Database + Auth + Storage + Edge Functions)
+   - 16 páginas completas
+   - 6 componentes reutilizáveis
+   - 80+ migrações de banco de dados
+   - 2 Edge Functions
+
+📊 BANCO DE DADOS SUPABASE
+   ⚠️  IMPORTANTE: Suas credenciais estão no arquivo .env
+   ⚠️  COPIE O CONTEÚDO DO .env E GUARDE EM LOCAL SEGURO!
+
+   Dashboard: https://supabase.com/dashboard
+
+   Tabelas principais:
+   • usuarios (admins e representantes)
+   • delegacao (delegados por estado/evento)
+   • inscricoes_membros (inscrições de membros)
+   • eventos (Teias e fóruns)
+   • cotas_por_estado (quotas por categoria)
+   • foruns_estaduais
+   • relatorios_estaduais
+   • representantes_gt
+   • documents
+
+🔐 ACESSO ADMINISTRATIVO
+   Email: admin@cnpdc.gov.br
+   Senha: [definida no primeiro acesso]
+
+📦 COMO EXECUTAR LOCALMENTE
+   1. npm install
+   2. Configure o arquivo .env com suas credenciais Supabase
+   3. npm run dev
+
+🏗️ BUILD PARA PRODUÇÃO
+   npm run build
+
+   Arquivos gerados em: /dist
+
+🚀 DEPLOYMENT
+   O projeto está configurado para Netlify/Vercel com:
+   • Redirects configurados (_redirects)
+   • Build command: npm run build
+   • Output directory: dist
+
+📱 FUNCIONALIDADES PRINCIPAIS
+   ✓ Login e autenticação (email/senha)
+   ✓ Dashboard administrativo
+   ✓ Dashboard de representantes estaduais
+   ✓ Gestão de delegação por estado
+   ✓ Sistema de quotas (Gênero, Juventude, Idosos, CT, Indígenas, Quilombolas)
+   ✓ Inscrição de membros com validação
+   ✓ Calendário de Teias
+   ✓ Relatórios e estatísticas
+   ✓ Exportação de dados (Excel/CSV)
+   ✓ Upload de documentos (Storage)
+   ✓ Visualização de delegados eleitos e natos
+   ✓ Paridade de gênero automática
+   ✓ Reset de senha via email
+
+🎨 DESIGN
+   • Logo oficial CNPDC (logocnpdc.png)
+   • Cores: Teal (principal), Blue, Gray
+   • Totalmente responsivo
+   • Icons: Lucide React
+
+⚙️ EDGE FUNCTIONS
+   1. create-admin-user - Criação de usuários admin
+   2. reset-password - Reset de senha via email
+
+📂 ARQUIVOS IMPORTANTES PARA BACKUP
+   ✓ Todo o diretório /src
+   ✓ Todo o diretório /supabase
+   ✓ .env (ESSENCIAL!)
+   ✓ package.json
+   ✓ vite.config.ts
+   ✓ tailwind.config.js
+   ✓ /public (incluindo logo)
+
+🆘 EM CASO DE PERDA DO PROJETO
+
+1. Se tem a URL do Bolt → Apenas abra a URL
+2. Se tem backup no GitHub → Clone o repositório
+3. Se tem download local → Extraia e execute npm install
+4. Se perdeu tudo mas tem o .env → Recrie o projeto e reconecte ao Supabase
+
+💡 DICAS IMPORTANTES
+
+✓ SEMPRE use a URL específica do projeto, não "bolt.new" genérico
+✓ Salve a URL nos favoritos do navegador
+✓ Faça backup do .env em local seguro
+✓ Configure GitHub sync no Bolt
+✓ Mantenha um download local atualizado
+✓ O Supabase mantém todos os dados salvos na nuvem
+
+═══════════════════════════════════════════════════════════════════
+
+Data de criação: 23 de Janeiro de 2026
+Status: ✅ Totalmente funcional e atualizado
+Última modificação: Logo oficial CNPDC integrada
+
+═══════════════════════════════════════════════════════════════════
